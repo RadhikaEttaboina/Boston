@@ -1,0 +1,158 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="dashboard.css">
+<div id="throbber" style="display:none; min-height:120px;"></div>
+<div id="noty-holder"></div>
+<div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://bryanrojasq.wordpress.com">
+                <img src="http://placehold.it/200x50&text=LOGO" alt="LOGO">
+            </a>
+        </div>
+        <!-- Top Menu Items -->
+        <ul class="nav navbar-right top-nav">
+            <li><a href="#" data-placement="bottom" data-toggle="tooltip" href="#" data-original-title="Stats"><i class="fa fa-bar-chart-o"></i>
+                </a>
+            </li>            
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin User <b class="fa fa-angle-down"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="fa fa-fw fa-user"></i> Edit Profile</a></li>
+                    <li><a href="#"><i class="fa fa-fw fa-cog"></i> Change Password</a></li>
+                    <li class="divider"></li>
+                    <li><a href="index.html"><i class="fa fa-fw fa-power-off"></i> Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav side-nav">
+                <li>
+                    <a href="dashboard.html">Dashboard</a> 
+                </li>
+                <li>
+                    <a href="community.html"><i class="fa fa-fw fa-star"></i>  Explore Community <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+                   
+                </li>
+                <li>
+                    <a href="amenities.html"><i class="fa fa-fw fa-user-plus"></i>  Book Amenities</a>
+                </li>
+               
+                <li>
+                    <a href="ticket.html"><i class="fa fa-fw fa-user-plus"></i>  Raise Ticket</a>
+                </li>
+                <li>
+                    <a href="group.html"><i class="fa fa-fw fa-paper-plane-o"></i> Groups</a>
+                </li>
+                <li>
+                    <a href="post.html"><i class="fa fa-fw fa fa-question-circle"></i> Post</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <!-- Page Heading -->
+            <div class="row" id="main" >
+                <div class="col-sm-12 col-md-12 well" id="content">
+                    <h1>Explore Community</h1>
+                    <div class="container">
+
+	
+                        <div class="row mbr-justify-content-center">
+                
+                            <div class="col-lg-6 mbr-col-md-10">
+                                <div class="wrap">
+                                    <div class="ico-wrap">
+                                        <span class="mbr-iconfont fa-volume-up fa"></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Morning Music</h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">Pleasent Morning Music which refresh and boost your mood for a pleasent work in a day</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mbr-col-md-10">
+                                <div class="wrap">
+                                    <div class="ico-wrap">
+                                        <span class="mbr-iconfont fa-calendar fa"></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Plan Your Outing
+                                        </h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">Our Proffesional outing planners will plan your outing more effectivly with great amenities </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mbr-col-md-10">
+                                <div class="wrap">
+                                    <div class="ico-wrap">
+                                        <span class="mbr-iconfont fa-rss-square fa"></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">High Speed Wifi
+                                        </h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">High Wifi Speed for your work and meetings without any interruption and its 5G supported also  </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mbr-col-md-10">
+                                <div class="wrap">
+                                    <div class="ico-wrap">
+                                        <span class="mbr-iconfont fa-users fa"></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Great Community</h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">A Great Community of Developers and Leaders to get motivate all the time to improve better in your career</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mbr-col-md-10">
+                                <div class="wrap">
+                                    <div class="ico-wrap">
+                                        <span class="mbr-iconfont fa-glass fa"></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Amazing Drinks</h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">To Refresh your body and soul with light sufi music along with dancing plates onboard</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mbr-col-md-10">
+                                <div class="wrap">
+                                    <div class="ico-wrap">
+                                        <span class="mbr-iconfont fa-building fa"></span>
+                                    </div>
+                                    <div class="text-wrap vcenter">
+                                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Peaceful Staycation</h2>
+                                        <p class="mbr-fonts-style text1 mbr-text display-6">Peaceful Rooms with attached conference room and living space with maharaja bed </p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            
+                        </div>
+                
+                </div>
+            
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /#page-wrapper -->
+</div><!-- /#wrapper -->
